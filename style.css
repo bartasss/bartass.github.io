@@ -1,0 +1,43 @@
+.mygrid {
+    width: 1000px;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 1fr 10fr 10fr;
+    grid-template-areas: 
+        "header header"
+        "nav nav"
+        "foto nazwa"
+        "foto nazwa";
+    margin: auto auto;
+        
+}
+
+.mygrid:hover {
+    opacity: 0.2;
+}
+
+
+.logo {
+grid-area: header;
+text-align: center;
+    font-family: 'Playfair Display', serif;
+}
+
+.menu {
+    grid-area: nav;
+    text-align: center;
+     font-family: 'Playfair Display', serif;
+    
+}
+.foto {
+    grid-area: foto;
+    margin-top: 20x;
+   
+}
+.opis {
+    grid-area: nazwa;
+    font-family: 'Playfair Display', serif;
+    font-size: 72px;
+    margin-top: 20px;
+}
