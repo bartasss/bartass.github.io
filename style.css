@@ -33,6 +33,8 @@ text-align: center;
 .foto {
     grid-area: foto;
     margin-top: 20x;
+    height: 200px;
+    width: 50%;
    
 }
 .opis {
