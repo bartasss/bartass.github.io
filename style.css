@@ -1,45 +1,63 @@
+
+.logotyp {
+    
+   margin-left: 20px;
+    font-size: 72px;
+    position: fixed;
+    padding-top: 15px;
+    color:white;
+    font-family: 'Nunito', sans-serif;
+    
+    
+   
+}
+
 .mygrid {
-    width: 1000px;
+    width: 100%;
     display: grid;
     grid-gap: 20px;
-    grid-template-columns: 2fr 1fr;
-    grid-template-rows: 1fr 1fr 10fr 10fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows:  10fr 10fr 10fr;
     grid-template-areas: 
-        "header header"
-        "nav nav"
-        "foto nazwa"
-        "foto nazwa";
+        "start start start"
+        "kafel1 kafel2 kafel3"
+        "foto nazwa foto2";
     margin: auto auto;
-        
+    
+    
 }
 
-.mygrid:hover {
-    opacity: 0.2;
-}
-
-
-.logo {
-grid-area: header;
-text-align: center;
-    font-family: 'Playfair Display', serif;
-}
-
-.menu {
-    grid-area: nav;
+.start {
+    
+    grid-area: start;
+    height: 91%;
+    width: 100%;
+    background: transparent url(https://pmcdeadline2.files.wordpress.com/2016/06/jennifer-lopez-shades-of-blue.jpg);
     text-align: center;
-     font-family: 'Playfair Display', serif;
+     font-family: 'Nunito', sans-serif;
+    font-size: 100px;
+    color: white;
+ width: 100%;
+padding-top: 70%;
+    
+     
+    
+      
+   
     
 }
 .foto {
     grid-area: foto;
-    margin-top: 20x;
-    height: 200px;
-    width: 50%;
+    margin-top: 20px;
+   width: auto;
+    opacity: 0.5;
+    
    
 }
 .opis {
     grid-area: nazwa;
-    font-family: 'Playfair Display', serif;
-    font-size: 72px;
+    font-family: 'Montserrat', sans-serif;
+font-size: 72px;
     margin-top: 20px;
+   
 }
