@@ -1,27 +1,39 @@
 
 .logotyp {
     
-   margin-left: 20px;
-    font-size: 72px;
+    width: 100%;
+   text-align: center;
     position: fixed;
-    padding-top: 15px;
-    color:white;
-    font-family: 'Nunito', sans-serif;
-    
-    
+    margin-top: 30px;
    
+    
+}
+
+.menu {
+   
+    font-size: 18px;
+    width: 100%;
+   text-align: center;
+   margin-top: 30px;
+color:black;
+    font-family: 'Montserrat', sans-serif;
+    position:fixed;
+    padding-top: 200px;
+    
+    
 }
 
 .mygrid {
+    
     width: 100%;
     display: grid;
-    grid-gap: 20px;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows:  10fr 10fr 10fr;
+    grid-gap: 10px;
+    grid-template-columns: 1fr;
+    grid-template-rows:  1fr;
     grid-template-areas: 
-        "start start start"
-        "kafel1 kafel2 kafel3"
-        "foto nazwa foto2";
+        "projekt1"
+        "rojekt2"
+        "projekt3";
     margin: auto auto;
     
     
@@ -29,35 +41,39 @@
 
 .start {
     
-    grid-area: start;
-    height: 91%;
+    grid-area:projekt1;
+    height: 600px;
     width: 100%;
-    background: transparent url(https://pmcdeadline2.files.wordpress.com/2016/06/jennifer-lopez-shades-of-blue.jpg);
+    background: transparent url(dziury.png);
+    
     text-align: center;
-     font-family: 'Nunito', sans-serif;
-    font-size: 100px;
+    padding-top: 50%;
+     font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
     color: white;
- width: 100%;
-padding-top: 70%;
+}
+    .start2 {
+    
+    grid-area:rojekt2;
+    height: 600px;
+    width: 100%;
+    background: transparent url(kwiaty.png);
+     padding-top: 50%;
+    text-align: center;
+    
+     font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    color: white;
+    
+   
+    
+    
+    
+    
     
      
     
       
    
     
-}
-.foto {
-    grid-area: foto;
-    margin-top: 20px;
-   width: auto;
-    opacity: 0.5;
-    
-   
-}
-.opis {
-    grid-area: nazwa;
-    font-family: 'Montserrat', sans-serif;
-font-size: 72px;
-    margin-top: 20px;
-   
 }
