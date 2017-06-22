@@ -23,7 +23,6 @@ a:active {
     
     width: 100%;
    text-align: center;
-    position: fixed;
     margin-top: 30px;
    
     
@@ -37,8 +36,7 @@ a:active {
    margin-top: 30px;
 color:black;
     font-family: 'Montserrat', sans-serif;
-    position:fixed;
-    padding-top: 200px;
+    
     
     
 }
@@ -97,7 +95,7 @@ position:fixed;
     grid-template-rows:  1fr;
     grid-template-areas: 
         "projekt1"
-        "rojekt2"
+        "projekt2"
         "projekt3";
     margin: auto auto;
     
@@ -109,7 +107,7 @@ position:fixed;
     grid-area:projekt1;
     height: 600px;
     width: 100%;
-    background: transparent url(dziury.png);
+    background: transparent url(me.png);
     
     text-align: center;
     padding-top: 50%;
@@ -119,29 +117,26 @@ position:fixed;
 }
     .start2 {
     
-    grid-area:rojekt2;
-    height: 600px;
+    grid-area:projekt2;
+    height: 200px;
     width: 100%;
-    background: transparent url(kwiaty.png);
-     padding-top: 50%;
+    padding-top: 50px;
     text-align: center;
+        
     
      font-family: 'Montserrat', sans-serif;
     font-size: 50px;
-    color: white;
+    color: black;
     
    
+    
+    
+    
+    
+    
+     
+    
+      
    
+    
 }
-.start3 {
-    
-    grid-area:projekt3;
-    height: 600px;
-    width: 100%;
-    background: transparent url(dziury3.png);
-     padding-top: 50%;
-    text-align: center;
-    
-     font-family: 'Montserrat', sans-serif;
-    font-size: 50px;
-    color: white;
